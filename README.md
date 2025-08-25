@@ -33,46 +33,6 @@ A comprehensive AI-powered agricultural platform that provides real-time weather
 - Python 3.8+
 - OpenWeatherMap API key (free from https://openweathermap.org/api)
 
-### Installation
-
-1. **Clone and navigate to the project:**
-   ```bash
-   cd Ok
-   ```
-
-2. **Install Node.js dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Install Python dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set up environment variables:**
-   ```bash
-   cp .env.example .env
-   # Edit .env and add your OpenWeatherMap API key
-   ```
-
-5. **Start the application:**
-   ```bash
-   # Option 1: Start both servers simultaneously
-   npm run dev-all
-   
-   # Option 2: Start servers separately
-   # Terminal 1 - Node.js server
-   npm run dev
-   
-   # Terminal 2 - Flask API server
-   npm run flask
-   ```
-
-6. **Access the application:**
-   - Frontend: http://localhost:3000
-   - Flask API: http://localhost:5000
-
 ## 🏗️ Architecture
 
 ### Frontend (Node.js + Express)
@@ -127,7 +87,7 @@ The system supports three languages:
 - **English**: Default language
 - **Hindi (हिंदी)**: Full translation of UI and voice
 - **Marathi (मराठी)**: Complete regional language support
-
+- **Many More**
 Language can be changed from the top navigation dropdown.
 
 ## 🔧 Configuration
